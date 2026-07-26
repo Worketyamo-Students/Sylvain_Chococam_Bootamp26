@@ -63,3 +63,36 @@ nav{
     font-size:medium ;
 }
 /* Fin modification de la nav bar */
+
+
+/* debut 1ere section */
+
+
+.bloc1{
+    display: flex;
+    margin-left: var(--pasGauche);
+}
+.bloc1_texte{
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.bloc1_texte h1{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.bloc1_texte button{
+    margin-top: 4rem;
+    width: 18rem;
+    height: 4rem;
+    color:white;
+    background-color: var(--primaryColor);
+    font-family: var(--policePrimaire);
+
+}
+.bloc1_images img{
+    width: 75rem;
+    height: 72rem;
+    margin-left: 40rem;
+}
+/* fin 1ere section */
+
