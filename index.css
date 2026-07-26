@@ -96,3 +96,22 @@ nav{
 }
 /* fin 1ere section */
 
+/*debut 2e section */
+.bloc2{
+    display: flex;
+    gap: 40rem;
+}
+.bloc2__images img{
+    width: 18rem;
+    height: 4rem;
+
+}
+.bloc2_texte{
+    margin-top: 18rem;
+    
+}
+.bloc2_texte h1{
+    margin-bottom: 5rem;
+
+}
+/*Fin 2e section*/
