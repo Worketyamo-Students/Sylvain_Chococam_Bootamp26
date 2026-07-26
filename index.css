@@ -206,3 +206,83 @@ nav{
 
 }
 /*fin 4e section*/
+/*debut form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+    background-color: #DFCECE;
+    margin-top: 8rem;
+    width: 100%;
+    height: 80%;
+    overflow-y: hidden;
+}
+.formu{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form div{
+    width: 50rem;
+    height: 7rem;
+    overflow-y: hidden;
+}
+.form_nom{
+    margin-top: 4rem;
+}
+.form_nom ,.form_age,.form_prenom,.form_email{
+    border: .3rem solid #443434;
+
+}
+
+
+.form_infos{
+    display: flex;
+    gap: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.form_btn{
+    margin-top: 4rem;
+}
+.form_btn button{
+    display: flex;
+    overflow-y: hidden;
+    background-color: var(--primaryColor);
+    color: var(--secondColor);
+    width: 30rem;
+    height: 4rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.form_btn button img{
+    width: 2rem;
+    height: 2rem;
+}
+/*fin form*/
+
+/*debut section vierge*/
+.vierge{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+/*fin section vierge*/
+
+/*debut footer*/
+footer{
+    background-color: var(--primaryColor);
+}
+footer img{
+    width: 50rem;
+    height: 50rem;
+
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
